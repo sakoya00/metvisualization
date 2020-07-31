@@ -1,6 +1,6 @@
 library(dplyr)
 
-#setwd("D:/Met Object")
+#setwd("D:/Met Objects")
 #getwd()
 
 #calculates artists with most Met artworks in descending order

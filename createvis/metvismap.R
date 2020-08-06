@@ -17,7 +17,7 @@ metmap <- latlong2 %>%
   borders("world", colour = "gray85", fill = "gray80") +
   theme_map()  +
   geom_point(alpha = .3) +
-  scale_size(range= c(1,20), trans = "log10")+
+  scale_size(range= c(.5,40))+
   theme(legend.position= "none")+
   scale_color_viridis(option= "C" ,discrete=TRUE, guide=TRUE)
 
